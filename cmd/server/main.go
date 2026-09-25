@@ -8,6 +8,7 @@ import (
 )
 
 func main() {
+	// could use fmt.Scan instead, but it divides words
 	scanner := bufio.NewScanner(os.Stdin)
 	fmt.Println("Hello, db! \".exit\" to quit")
 	for {
